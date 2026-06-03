@@ -29,6 +29,12 @@ First, a Simple Linear Regression model was trained to establish the baseline re
 The graph below plots the actual developer salaries against their years of experience, with the red line representing our model's "line of best fit."
 
 ![Simple Linear Regression Graph](Screenshots/Simple_Regression_Graph.png)
+🔍 Chart Breakdown:
+- A scatterplot featuring blue dots representing the testing data (actual developer 
+  salaries plotted against their years of experience).
+- A solid red line passing through the center of the data cluster. This is the 
+  "line of best fit." It represents our mathematical model's attempt to draw a 
+  relationship between experience and money with the lowest possible error.
 
 ### 3. Multiple Linear Regression (All Features)
 
@@ -39,6 +45,12 @@ To achieve a more accurate prediction, a Multiple Linear Regression model was im
 Since we are predicting using four dimensions, the graph compares the **Actual Salaries** against the **Predicted Salaries**. The closer the data points cluster to the dotted green diagonal line (Perfect Prediction), the more accurate the model is.
 
 ![Multiple Linear Regression Graph](Screenshots/Multiple_Regression_Graph.png)
+🔍 Chart Breakdown:
+- Because we are predicting using four dimensions, we cannot draw a simple line on a 2D graph.
+- Instead, you will see a scatter plot comparing Actual Salaries (X-axis) against 
+  Predicted Salaries (Y-axis). 
+- There is a dotted black diagonal line representing "Perfect Prediction" (Actual = Predicted). 
+  The closer our purple data points cluster to this diagonal line, the more accurate the model is.
 
 ### 4. Interpreting Feature Coefficients
 
