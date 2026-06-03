@@ -1,4 +1,4 @@
-# Task-3 💻 Developer Salaries & Tech Market Analytics
+# 💻 Developer Salaries & Tech Market Analytics
 ## Project Overview
 
 This project implements a Machine Learning pipeline using **Linear Regression** to predict developer salaries based on market data. The objective is to understand how different variables (like years of experience, known programming languages, meeting hours, and remote work percentage) impact annual compensation and to build a predictive model evaluating these relationships.
