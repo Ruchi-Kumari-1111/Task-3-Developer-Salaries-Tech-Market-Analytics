@@ -18,30 +18,30 @@ Through this project, I practically explored Simple vs. Multiple Linear Regressi
 
 The dataset was generated synthetically to represent realistic tech market variables. The features include `YearsExperience`, `KnownLanguages`, `MeetingHours`, and `RemotePercent`. 
 
-![Data Preprocessing](1.png)
+![Data Preprocessing](Screenshots/1.png)
 
 ### 2. Simple Linear Regression (Salary vs. Experience)
 
 First, a Simple Linear Regression model was trained to establish the baseline relationship between a single feature (**Years of Experience**) and the target variable (**Salary**).
 
-![Simple Regression Output](2.png)
+![Simple Regression Output](Screenshots/2.png)
 
 The graph below plots the actual developer salaries against their years of experience, with the red line representing our model's "line of best fit."
 
-![Simple Linear Regression Graph](Simple_Regression_Graph.png)
+![Simple Linear Regression Graph](Screenshots/Simple_Regression_Graph.png)
 
 ### 3. Multiple Linear Regression (All Features)
 
 To achieve a more accurate prediction, a Multiple Linear Regression model was implemented incorporating all available features. The data was split into 80% Training and 20% Testing sets.
 
-![Multiple Regression Output](4.png)
+![Multiple Regression Output](Screenshots/4.png)
 
 Since we are predicting using four dimensions, the graph compares the **Actual Salaries** against the **Predicted Salaries**. The closer the data points cluster to the dotted green diagonal line (Perfect Prediction), the more accurate the model is.
 
-![Multiple Linear Regression Graph](Multiple_Regression_Graph.png)
+![Multiple Linear Regression Graph](Screenshots/Multiple_Regression_Graph.png)
 
 ### 4. Interpreting Feature Coefficients
 
 By extracting the model's coefficients, I derived actual business logic from the mathematics:
 
-![Interpretation and Evaluation](5.png)
+![Interpretation and Evaluation](Screenshots/5.png)
